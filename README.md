@@ -16,7 +16,7 @@ npm run deploy
 ### 使用组件
 ```shell script
 # 引入插件
-yarn add @hocgin/gin-xx:lastest
+yarn add @hocgin/gin-xx:latest
 # 在 jsx 中使用
 import GinXx from '@hocgin/gin-xx'
 ```
