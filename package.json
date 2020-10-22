@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "webpack --config config/webpack.prod.config.js",
-    "deploy": "npm run build && npm publish --access public"
+    "deploy": "npm install && npm run build && npm publish --access public"
   },
   "author": {
     "name": "hocgin",
@@ -19,6 +19,7 @@
     "url" : "https://github.com/hocgin/react-component-npm"
   },
   "keywords": [
+    "hocgin",
     "react",
     "component"
   ],
