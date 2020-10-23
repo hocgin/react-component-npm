@@ -21,6 +21,7 @@ let config = {
   devServer: {
     contentBase: path.resolve(__dirout, './src/'),
     compress: true,
+    host: "0.0.0.0",
     port: 8000,
     // 自动打开浏览器
     open: false
