@@ -1,0 +1,11 @@
+.mobile(@rules) {
+  @media only screen and (max-width: 800px) {
+    @rules();
+  }
+}
+
+.dark(@rules) {
+  @media (prefers-color-scheme: dark) {
+    @rules();
+  }
+}
